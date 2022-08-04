@@ -1,5 +1,7 @@
 # Work-Day-Scheduler
 
+Deployed URL: https://jerwinsauco.github.io/Work-Day-Scheduler/
+
 ##  Description
 A simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
@@ -38,10 +40,11 @@ THEN the saved events persist
 - Events are saved in local storage.
 - 
 ```
-## Application Demo 
+## Application Demo
+![Work Day Scheduler](https://user-images.githubusercontent.com/108501737/182938594-a7df2189-80c8-4d4c-b897-f1241c48fe0e.gif)
 
 ```
 
-<p><image align-right"right" src="" width="500" height="320"/></p>
+
 
 
