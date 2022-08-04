@@ -42,6 +42,6 @@ THEN the saved events persist
 
 ```
 
-<p><image align-right"right" src="" width="500" height="320"/></p>
+<p><image align-right"right" src="https://github.com/jerwinsauco/Work-Day-Scheduler/blob/main/assets/images/Work%20Day%20Scheduler.gif" width="500" height="320"/></p>
 
 
