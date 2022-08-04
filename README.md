@@ -40,5 +40,6 @@ THEN the saved events persist
 ```
 ## Application Demo 
 
-```
-![Work Day Scheduler](https://user-images.githubusercontent.com/108501737/182937680-44232ca5-ad48-4e0f-878b-3cdd1eaeae72.gif)
+```![Work Day Scheduler](https://user-images.githubusercontent.com/108501737/182938257-078fa456-0cdb-4447-96e1-1b53b7d4baa7.gif)
+
+
