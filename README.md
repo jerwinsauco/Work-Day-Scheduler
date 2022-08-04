@@ -38,8 +38,10 @@ THEN the saved events persist
 - Events are saved in local storage.
 - 
 ```
-## Application Demo 
+## Application Demo
 
-```![Work Day Scheduler](https://user-images.githubusercontent.com/108501737/182938257-078fa456-0cdb-4447-96e1-1b53b7d4baa7.gif)
+```
+![Work Day Scheduler](https://user-images.githubusercontent.com/108501737/182938468-1d510f5b-35fb-496d-83f6-f6ec9b86ccfc.gif)
+
 
 
