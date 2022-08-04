@@ -51,7 +51,7 @@ function timePointer() {
         // past color coding
         if (blockHour < timeNow) {
             $(this).addClass("past");
-            // present color coding
+        // present color coding
         } else if (blockHour === timeNow) {
             $(this).removeClass("past");
             $(this).addClass("present");
@@ -62,7 +62,7 @@ function timePointer() {
             $(this).removeClass("present");
             $(this).addClass("future");
         }
-    }
+    })
 
 }
 
