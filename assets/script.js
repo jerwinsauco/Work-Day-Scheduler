@@ -21,12 +21,12 @@ document.querySelector("#currentTime").textContent = localNowTime;
 
 // jQuery ready() function executes only when the DOM is fully loaded. 
 // $(document).ready(function () {
-    $(".saveIcon").on("click", function () {
-        var inputValue = $(this).siblings(".description").val();
-        var time = $(this).parent().attr("id");
-        // inputValue by user is stored in localStorage
-        localStorage.setItem(time, inputValue);
-    })
+$(".saveIcon").on("click", function () {
+    var inputValue = $(this).siblings(".description").val();
+    var time = $(this).parent().attr("id");
+    // inputValue by user is stored in localStorage
+    localStorage.setItem(time, inputValue);
+})
 
 // Loads the text from local storage to the input fields
 $("#8 .description").val(localStorage.getItem("8"));
@@ -40,3 +40,30 @@ $("#15 .description").val(localStorage.getItem("15"));
 $("#16 .description").val(localStorage.getItem("16"));
 $("#17 .description").val(localStorage.getItem("17"));
 
+// Past, present, future color coding
+function timePointer() {
+    // current web app time 
+    var timeNow = moment().hour();
+
+    // past, present, future color coding
+    $(".time-block").each(function () {
+        var blockHour = parseInt($(this).attr("id"));
+        // past color coding
+        if (blockHour < timeNow) {
+            $(this).addClass("past");
+            // present color coding
+        } else if (blockHour === timeNow) {
+            $(this).removeClass("past");
+            $(this).addClass("present");
+        }
+        // future color coding
+        else {
+            $(this).removeClass("past");
+            $(this).removeClass("present");
+            $(this).addClass("future");
+        }
+    }
+
+}
+
+timePointer();
