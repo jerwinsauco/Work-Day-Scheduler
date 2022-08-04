@@ -41,7 +41,4 @@ THEN the saved events persist
 ## Application Demo 
 
 ```
-
-<p><image align-right"right" alt="gif" src="https://github.com/jerwinsauco/Work-Day-Scheduler/blob/main/assets/images/Work%20Day%20Scheduler.gif" width="500" height="320"/></p>
-
-
+![Work Day Scheduler](https://user-images.githubusercontent.com/108501737/182937680-44232ca5-ad48-4e0f-878b-3cdd1eaeae72.gif)
