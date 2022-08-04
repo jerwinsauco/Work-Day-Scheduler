@@ -1,3 +1,4 @@
+
 // DATE and TIME Section
 // Date from moment.js in UTC 
 var nowDate = moment.utc().format("LLLL");
@@ -26,7 +27,7 @@ document.querySelector("#currentTime").textContent = localNowTime;
         // inputValue by user is stored in localStorage
         localStorage.setItem(time, inputValue);
     })
-}
+
 // Loads the text from local storage to the input fields
 $("#8 .description").val(localStorage.getItem("8"));
 $("#9 .description").val(localStorage.getItem("9"));
@@ -38,3 +39,4 @@ $("#14 .description").val(localStorage.getItem("14"));
 $("#15 .description").val(localStorage.getItem("15"));
 $("#16 .description").val(localStorage.getItem("16"));
 $("#17 .description").val(localStorage.getItem("17"));
+
